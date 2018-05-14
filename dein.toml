@@ -1,0 +1,18 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+hook_add = '''
+    map <Space>l <Plug>(easymotion-lineforward)
+    map <Space>j <Plug>(easymotion-j)
+    map <Space>k <Plug>(easymotion-k)
+    map <Space>h <Plug>(easymotion-linebackward)
+    map <Space>w <Plug>(easymotion-bd-f)
+    map <Space>w <Plug>(easymotion-overwin-f)
+'''
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
