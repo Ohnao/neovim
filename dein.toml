@@ -14,5 +14,18 @@ hook_add = '''
     map <Space>w <Plug>(easymotion-bd-f)
     map <Space>w <Plug>(easymotion-overwin-f)
 '''
+
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
