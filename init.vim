@@ -59,6 +59,7 @@ set showmatch
 
 "オートインデント
 set autoindent
+set smartindent
 
 "tab
 set tabstop=2
