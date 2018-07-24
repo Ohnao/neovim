@@ -29,3 +29,12 @@ repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'MetalPhaeton/easybracket-vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]
+repo = 'osyo-manga/vim-watchdogs'
