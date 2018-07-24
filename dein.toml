@@ -17,6 +17,7 @@ hook_add = '''
 
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
+on_i = 1
 
 [[plugins]]
 repo = 'tomasr/molokai'
@@ -34,7 +35,4 @@ repo = 'Yggdroot/indentLine'
 repo = 'MetalPhaeton/easybracket-vim'
 
 [[plugins]]
-repo = 'Shougo/neosnippet.vim'
-
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
+repo = 'jwalton512/vim-blade'
