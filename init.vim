@@ -75,10 +75,3 @@ set ruler " ステータスラインの右側にカーソルの現在位置を�
 set t_Co=256  "screen が 256色"
 
 set ruler "カーソルが何行目の何列目に置かれているかを表示"
-
-"htmlの閉じタグ補完
-augroup MyXML
-  autocmd!
-  autocmd Filetype xml inoremap <buffer> </ </<C-x><C-o>
-  autocmd Filetype html inoremap <buffer> </ </<C-x><C-o>
-augroup END
