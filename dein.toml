@@ -36,5 +36,5 @@ repo = 'MetalPhaeton/easybracket-vim'
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
 
-[[plugins]
-repo = 'osyo-manga/vim-watchdogs'
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
