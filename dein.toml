@@ -36,3 +36,6 @@ repo = 'MetalPhaeton/easybracket-vim'
 
 [[plugins]]
 repo = 'jwalton512/vim-blade'
+
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
