@@ -36,6 +36,7 @@ autocmd VimEnter * execute 'NERDTree'
 "隠しファイルをデフォルト表示
 let NERDTreeShowHidden = 1
 let g:NERDTreeLimitedSyntax = 1
+
 "deoplete.nvimの設定
 let g:deoplete#enable_at_startup = 1
 
