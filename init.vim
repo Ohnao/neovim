@@ -84,4 +84,3 @@ set ruler "カーソルが何行目の何列目に置かれているかを表示
 set clipboard=unnamed "neovim以外での場所でもコピぺができる"
 
 set encoding=UTF-8 "エンコーディングの形式をUTF-8に固定"
-
