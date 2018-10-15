@@ -73,8 +73,11 @@ set showcmd " 打ったコマンドをステータスラインの下に表示
 set ruler " ステータスラインの右側にカーソルの現在位置を表示する
 
 set t_Co=256  "screen が 256色"
+
+"airline id set"
 let g:molokai_original = 1
 let g:rehash256 = 1
+let g:airline#extensions#tabline#enabled = 1
 
 set ruler "カーソルが何行目の何列目に置かれているかを表示"
 
@@ -82,4 +85,3 @@ set clipboard=unnamed "neovim以外での場所でもコピぺができる"
 
 set encoding=UTF-8 "エンコーディングの形式をUTF-8に固定"
 
-let g:airline#extensions#tabline#enabled = 1
