@@ -16,22 +16,16 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'Shougo/deoplete.nvim'
-
-[[plugins]]
 repo = 'tomasr/molokai'
 
 [[plugins]]
-repo = 'itchyny/lightline.vim'
+repo = 'Shougo/deoplete.nvim'
 
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
-repo = 'Yggdroot/indentLine'
-
-[[plugins]]
-repo = 'MetalPhaeton/easybracket-vim'
+repo = 'nathanaelkane/vim-indent-guides'
 
 [[plugins]]
 repo = 'jwalton512/vim-blade'
@@ -41,3 +35,15 @@ repo = 'plasticboy/vim-markdown'
 
 [[plugins]]
 repo = 'godlygeek/tabular'
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
