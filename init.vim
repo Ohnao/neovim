@@ -78,6 +78,9 @@ set t_Co=256  "screen が 256色"
 let g:molokai_original = 1
 let g:rehash256 = 1
 let g:airline#extensions#tabline#enabled = 1
+nmap <C-w> <Plug>AirlineSelectPrevTab
+nmap <C-> <Plug>AirlineSelectNextTab
+let g:airline#extensions#tabline#buffer_idx_mode = 1
 
 set ruler "カーソルが何行目の何列目に置かれているかを表示"
 
