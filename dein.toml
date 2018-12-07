@@ -47,3 +47,6 @@ repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
 repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'simeji/winresizer'
