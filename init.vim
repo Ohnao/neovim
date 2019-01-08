@@ -78,6 +78,7 @@ set t_Co=256  "screen が 256色"
 let g:molokai_original = 1
 let g:rehash256 = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 nmap <C-r> <Plug>AirlineSelectPrevTab
 nmap <C-> <Plug>AirlineSelectNextTab
 let g:airline#extensions#tabline#buffer_idx_mode = 1
