@@ -74,6 +74,8 @@ set ruler " ステータスラインの右側にカーソルの現在位置を�
 
 set t_Co=256  "screen が 256色"
 
+:syntax on
+
 "airline id set"
 let g:molokai_original = 1
 let g:rehash256 = 1
