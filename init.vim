@@ -42,6 +42,10 @@ let g:deoplete#enable_at_startup = 1
 "バックアップファイルをつくらない
 set nobackup
 
+"ignoreとsmartサーチ"
+set ignorecase
+set smartcase
+
 "スワップファイルを作らない
 set noswapfile
 
