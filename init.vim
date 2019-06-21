@@ -98,4 +98,4 @@ set encoding=UTF-8 "エンコーディングの形式をUTF-8に固定"
 set hlsearch
 nnoremap <ESC><ESC> :nohlsearc<CR> "検索ハイライトと取り消し"
 
-inoremap <silent> jj <ESC> "インサートモードをjjで抜けられるようになる"
+
