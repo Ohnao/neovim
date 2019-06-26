@@ -54,6 +54,7 @@ set noerrorbells
 
 "行番号
 set number
+set relativenumber
 
 "カーソルライン
 set cursorline
