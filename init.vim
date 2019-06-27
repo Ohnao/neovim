@@ -102,3 +102,5 @@ nnoremap <ESC><ESC> :nohlsearc<CR> "検索ハイライトと取り消し"
 set shellslash
 
 set wrap "ウィンドウより長い行は折り返し"
+
+set list "空文字の可視化"
