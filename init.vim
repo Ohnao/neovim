@@ -104,3 +104,5 @@ set shellslash
 set wrap "ウィンドウより長い行は折り返し"
 
 set list "空文字の可視化"
+
+nnoremap <silent> <C-q> :bwipe<CR> "タブをctl+qで消せる"
