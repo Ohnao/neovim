@@ -108,3 +108,5 @@ set list "空文字の可視化"
 nnoremap <silent> <C-q> :bwipe<CR> "タブをctl+qで消せる"
 
 nnoremap <silent> <C-a> :wq<CR> "保存して終了をctl+aでできる"
+
+nnoremap <silent> <C-s> :w<CR> "保存するをctl+sでできる"
