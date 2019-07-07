@@ -109,5 +109,6 @@ nnoremap <silent> <C-a> :wq<CR> "保存して終了をctl+aでできる"
 
 nnoremap <silent> <C-s> :w<CR> "保存するをctl+sでできる"
 
-nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
+nnoremap <silent> <C-x> :q<CR> "停止をctl+xでできる"
 
+nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
