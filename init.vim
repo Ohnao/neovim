@@ -59,6 +59,9 @@ set relativenumber
 "カーソルライン
 set cursorline
 
+"行強調
+set cursorcolumn
+
 "カッコ強調
 set showmatch
 
