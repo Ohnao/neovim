@@ -115,3 +115,5 @@ nnoremap <silent> <C-s> :w<CR> "保存するをctl+sでできる"
 nnoremap <silent> <C-x> :q<CR> "停止をctl+xでできる"
 
 nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
+
+set scrolloff=2
