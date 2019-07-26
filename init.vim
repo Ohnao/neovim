@@ -116,4 +116,5 @@ nnoremap <silent> <C-x> :q<CR> "停止をctl+xでできる"
 
 nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
 
-set scrolloff=2
+"ctl＋fでスクロールさせる時の可読性をあげました"
+set scrolloff=5
