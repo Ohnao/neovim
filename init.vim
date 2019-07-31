@@ -57,10 +57,6 @@ set number
 set relativenumber
 
 "カーソルライン
-set cursorline
-
-"行強調
-set cursorcolumn
 
 "カッコ強調
 set showmatch
@@ -93,8 +89,6 @@ nmap <C-q> <Plug>AirlineSelectPrevTab
 nmap <C-> <Plug>AirlineSelectNextTab
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 
-set ruler "カーソルが何行目の何列目に置かれているかを表示"
-
 set clipboard=unnamed "neovim以外での場所でもコピぺができる"
 
 set encoding=UTF-8 "エンコーディングの形式をUTF-8に固定"
@@ -119,6 +113,10 @@ nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
 nnoremap <silent> <C-g> :sv<CR> "縦にウィンドウを増やす"
 
 nnoremap <silent> <C-k> :vs<CR> "横にウィンドウを増やす"
+
+set ruler
+
+set cursorline
 
 "ctl＋fでスクロールさせる時の可読性をあげました"
 set scrolloff=5
