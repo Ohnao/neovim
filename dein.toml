@@ -50,6 +50,3 @@ repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'simeji/winresizer'
-
-[[plugins]]
-repo = 'prettier/vim-prettier'
