@@ -53,3 +53,10 @@ repo = 'simeji/winresizer'
 
 [[plugins]]
 repo = 'prettier/vim-prettier'
+build = 'npm install'
+on_ft = ['javascript','css','html','php','ruby','markdown','vue']
+hook_source = '''
+  let g:prettier#autoformat = 0
+  let g:prettier#quickfix_enabled = 0
+  autocmd BufWritePre *.js,*.css,*.html,*.php,*.ruby,*.md,*.vue PrettierAsync
+'''
