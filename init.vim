@@ -114,9 +114,9 @@ nnoremap <silent> <C-g> :sv<CR> "縦にウィンドウを増やす"
 
 nnoremap <silent> <C-k> :vs<CR> "横にウィンドウを増やす"
 
-set ruler
+set ruler "カーソルの位置表示"
 
-set cursorline
+set cursorline "行番号のハイライト"
 
 "ctl＋fでスクロールさせる時の可読性をあげました"
 set scrolloff=5
