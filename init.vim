@@ -112,7 +112,7 @@ nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
 
 nnoremap <silent> <C-g> :sv<CR> "縦にウィンドウを増やす"
 
-nnoremap <silent> <C-k> :vs<CR> "横にウィンドウを増やす"
+nnoremap <silent> <C-h> :vs<CR> "横にウィンドウを増やす"
 
 set ruler "カーソルの位置表示"
 
