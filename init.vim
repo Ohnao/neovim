@@ -80,7 +80,7 @@ set t_Co=256  "screen が 256色"
 
 :syntax on
 
-"airline id set"
+"vim airline id set"
 let g:molokai_original = 1
 let g:rehash256 = 1
 let g:airline#extensions#tabline#enabled = 1
