@@ -60,3 +60,6 @@ hook_source = '''
   let g:prettier#quickfix_enabled = 0
   autocmd BufWritePre *.js,*.css,*.html,*.php,*.ruby,*.md,*.vue PrettierAsync
 '''
+
+[[plugins]]
+repo = 'dense-analysis/ale'
