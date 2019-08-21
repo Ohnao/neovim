@@ -121,7 +121,9 @@ set cursorline "行番号のハイライト"
 "ctl＋fでスクロールさせる時の可読性をあげました"
 set scrolloff=5
 
-le_lint_on_text_changed = 0
+"ale settings"
+let g:ale_lint_on_text_changed = 0
+
 " 表示に関する設定
 let g:ale_sign_error = ''
 let g:ale_sign_warning = ''
