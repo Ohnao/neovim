@@ -122,7 +122,7 @@ set cursorline "行番号のハイライト"
 set scrolloff=5
 
 "ale settings"
-let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_text_changed = 1
 
 " 表示に関する設定
 let g:ale_sign_column_always = 1
