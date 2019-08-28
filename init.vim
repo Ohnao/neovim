@@ -56,8 +56,6 @@ set noerrorbells
 set number
 set relativenumber
 
-"カーソルライン
-
 "カッコ強調
 set showmatch
 
