@@ -128,6 +128,7 @@ let g:ale_sign_error = ''
 let g:ale_sign_warning = ''
 let g:ale_linters = {
 \   'javascript': ['eslint'],
+\   'css': ['stylelint'],
 \}
 " Ctrl + kで次の指摘へ、Ctrl + jで前の指摘へ移動
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
