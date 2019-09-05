@@ -67,6 +67,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set softtabstop=2
 
 "lightlineの設定
 set laststatus=2 " ステータスラインを常に表示
