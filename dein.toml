@@ -3,6 +3,9 @@ repo = 'Shougo/dein.vim'
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+hook_add = '''
+autocmd VimEnter * execute 'NERDTree'
+'''
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'
@@ -20,6 +23,9 @@ repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+let g:deoplete#enable_at_startup = 1
+'''
 
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
