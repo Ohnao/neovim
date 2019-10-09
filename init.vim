@@ -31,46 +31,6 @@ endif
 let NERDTreeShowHidden = 1
 let g:NERDTreeLimitedSyntax = 1
 
-"バックアップファイルをつくらない
-set nobackup
-
-"ignoreとsmartサーチ"
-set ignorecase
-set smartcase
-
-"スワップファイルを作らない
-set noswapfile
-
-"ビープ音を無効化
-set noerrorbells
-
-"行番号
-set number
-set relativenumber
-
-"カッコ強調
-set showmatch
-
-"オートインデント
-set autoindent
-set smartindent
-
-"tab
-set tabstop=2
-set shiftwidth=2
-set expandtab
-set softtabstop=2
-
-"lightlineの設定
-set laststatus=2 " ステータスラインを常に表示
-set showmode " 現在のモードを表示
-set showcmd " 打ったコマンドをステータスラインの下に表示
-set ruler " ステータスラインの右側にカーソルの現在位置を表示する
-
-set t_Co=256  "screen が 256色"
-
-:syntax on
-
 "vim airline id set"
 let g:molokai_original = 1
 let g:rehash256 = 1
@@ -80,18 +40,7 @@ nmap <C-q> <Plug>AirlineSelectPrevTab
 nmap <C-> <Plug>AirlineSelectNextTab
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 
-set clipboard=unnamed "neovim以外での場所でもコピぺができる"
-
-set encoding=UTF-8 "エンコーディングの形式をUTF-8に固定"
-
-set hlsearch
 nnoremap <ESC><ESC> :nohlsearc<CR> "検索ハイライトと取り消し"
-
-set shellslash
-
-set wrap "ウィンドウより長い行は折り返し"
-
-set list "空文字の可視化"
 
 nnoremap <silent> <C-a> :wq<CR> "保存して終了をctl+aでできる"
 
@@ -104,13 +53,6 @@ nnoremap <silent> <C-d> :bwipe<CR> "タブをctl+qで消せる"
 nnoremap <silent> <C-g> :sv<CR> "縦にウィンドウを増やす"
 
 nnoremap <silent> <C-h> :vs<CR> "横にウィンドウを増やす"
-
-set ruler "カーソルの位置表示"
-
-set cursorline "行番号のハイライト"
-
-"ctl＋fでスクロールさせる時の可読性をあげました"
-set scrolloff=5
 
 "ale settings"
 let g:ale_lint_on_text_changed = 1
@@ -126,3 +68,5 @@ let g:ale_linters = {
 " Ctrl + kで次の指摘へ、Ctrl + jで前の指摘へ移動
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+runtime! ./vasic.vim
