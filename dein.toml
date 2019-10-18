@@ -4,18 +4,18 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
-autocmd VimEnter * execute 'NERDTree'
+  autocmd VimEnter * execute 'NERDTree'
 '''
 
 [[plugins]]
 repo = 'easymotion/vim-easymotion'
 hook_add = '''
-    map <Space>l <Plug>(easymotion-lineforward)
-    map <Space>j <Plug>(easymotion-j)
-    map <Space>k <Plug>(easymotion-k)
-    map <Space>h <Plug>(easymotion-linebackward)
-    map <Space>w <Plug>(easymotion-bd-f)
-    map <Space>q <Plug>(easymotion-overwin-f)
+  map <Space>l <Plug>(easymotion-lineforward)
+  map <Space>j <Plug>(easymotion-j)
+  map <Space>k <Plug>(easymotion-k)
+  map <Space>h <Plug>(easymotion-linebackward)
+  map <Space>w <Plug>(easymotion-bd-f)
+  map <Space>q <Plug>(easymotion-overwin-f)
 '''
 
 [[plugins]]
@@ -24,7 +24,7 @@ repo = 'tomasr/molokai'
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
 hook_add = '''
-let g:deoplete#enable_at_startup = 1
+  let g:deoplete#enable_at_startup = 1
 '''
 
 [[plugins]]
@@ -42,10 +42,10 @@ repo = 'plasticboy/vim-markdown'
 [[plugins]]
 repo = 'previm/previm'
 hook_add = '''
-    autocmd BufRead,BufNewFile *.md  set filetype=markdown
-    nnoremap <silent> <C-p> :PrevimOpen<CR>
-    let g:vim_markdown_folding_disabled=1
-    let g:previm_enable_realtime=1
+  autocmd BufRead,BufNewFile *.md  set filetype=markdown
+  nnoremap <silent> <C-p> :PrevimOpen<CR>
+  let g:vim_markdown_folding_disabled=1
+  let g:previm_enable_realtime=1
 '''
 
 [[plugins]]
@@ -59,6 +59,15 @@ repo = 'ryanoasis/vim-devicons'
 
 [[plugins]]
 repo = 'vim-airline/vim-airline'
+hook_add = '''
+  let g:molokai_original = 1
+  let g:rehash256 = 1
+  let g:airline#extensions#tabline#enabled = 1
+  let g:airline_powerline_fonts = 1
+  nmap <C-q> <Plug>AirlineSelectPrevTab
+  nmap <C-> <Plug>AirlineSelectNextTab
+  let g:airline#extensions#tabline#buffer_idx_mode = 1
+'''
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'

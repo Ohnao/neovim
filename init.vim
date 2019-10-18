@@ -31,19 +31,8 @@ endif
 let NERDTreeShowHidden = 1
 let g:NERDTreeLimitedSyntax = 1
 
-"vim airline id set"
-let g:molokai_original = 1
-let g:rehash256 = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-nmap <C-q> <Plug>AirlineSelectPrevTab
-nmap <C-> <Plug>AirlineSelectNextTab
-let g:airline#extensions#tabline#buffer_idx_mode = 1
-
 "ale settings"
 let g:ale_lint_on_text_changed = 1
-
-" 表示に関する設定
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = ''
 let g:ale_sign_warning = ''
