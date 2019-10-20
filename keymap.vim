@@ -12,6 +12,6 @@ nnoremap <silent> <C-g> :sv<CR> "縦にウィンドウを増やす"
 
 nnoremap <silent> <C-h> :vs<CR> "横にウィンドウを増やす"
 
-" Ctrl + kで次の指摘へ、Ctrl + jで前の指摘へ移動
+"space + Ctrl + kで次の指摘へ、space + Ctrl + jで前の指摘へ移動
 nnoremap <silent> <C-k> <Plug>(ale_previous_wrap)
 nnoremap <silent> <C-j> <Plug>(ale_next_wrap)
