@@ -31,15 +31,5 @@ endif
 let NERDTreeShowHidden = 1
 let g:NERDTreeLimitedSyntax = 1
 
-"ale settings"
-let g:ale_lint_on_text_changed = 1
-let g:ale_sign_column_always = 1
-let g:ale_sign_error = ''
-let g:ale_sign_warning = ''
-let g:ale_linters = {
-\   'javascript': ['eslint'],
-\   'css': ['stylelint'],
-\}
-
 runtime! ./vasic.vim
 runtime! ./keymap.vim
