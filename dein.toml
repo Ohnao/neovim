@@ -34,13 +34,12 @@ repo = 'bronson/vim-trailing-whitespace'
 repo = 'nathanaelkane/vim-indent-guides'
 
 [[plugins]]
-repo = 'jwalton512/vim-blade'
-
-[[plugins]]
 repo = 'plasticboy/vim-markdown'
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'previm/previm'
+on_ft = ['markdown']
 hook_add = '''
   autocmd BufRead,BufNewFile *.md  set filetype=markdown
   nnoremap <silent> <C-p> :PrevimOpen<CR>
@@ -50,9 +49,11 @@ hook_add = '''
 
 [[plugins]]
 repo = 'tyru/open-browser.vim'
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'godlygeek/tabular'
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
@@ -74,6 +75,7 @@ repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]]
 repo = 'cohama/lexima.vim'
+on_i = 1
 
 [[plugins]]
 repo = 'simeji/winresizer'
@@ -81,7 +83,7 @@ repo = 'simeji/winresizer'
 [[plugins]]
 repo = 'prettier/vim-prettier'
 build = 'npm install'
-on_ft = ['javascript','css','html','php','ruby','markdown','vue']
+on_i = 1
 hook_source = '''
   let g:prettier#autoformat = 0
   let g:prettier#quickfix_enabled = 0
@@ -91,6 +93,9 @@ hook_source = '''
 [[plugins]]
 repo = 'dense-analysis/ale'
 hook_add = '''
+  let g:ale_lint_on_save = 1
+  let g:ale_lint_on_text_changed = 0
+  let g:ale_lint_on_enter = 0
   let g:ale_lint_on_text_changed = 1
   let g:ale_sign_column_always = 1
   let g:ale_sign_error = ''
