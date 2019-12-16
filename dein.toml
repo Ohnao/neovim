@@ -92,6 +92,7 @@ hook_source = '''
 
 [[plugins]]
 repo = 'dense-analysis/ale'
+on_i = 1
 hook_add = '''
   let g:ale_lint_on_save = 1
   let g:ale_lint_on_text_changed = 0
